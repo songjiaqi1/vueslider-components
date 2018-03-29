@@ -88,7 +88,6 @@
         this.timerAuto=setInterval(this.next,2000);
       },
       endInterval(){
-//        console.log("leave");
         clearInterval(this.timerAuto);
       },
       next(){
